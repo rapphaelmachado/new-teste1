@@ -32,6 +32,7 @@
         width: 100%;
         margin-bottom: -190px;
     }
+    
 
     .slide img {
         width: 100%;
@@ -51,30 +52,21 @@
     /* fim slider 1 e inicio de slider 2 */
 
     .slider2 {
-        width: auto;
-        margin-bottom: -190px;
-        display: inline-block;
-    }
-
-    .slide2 img {
         width: 100%;
-        display: inline-block;
+        height: auto;
+        margin-bottom: 10px;
 
     }
 
     .manual-navigation2 {
         display: none;
-        width: 100%;
-        margin-top: -140px;
-
     }
 
     .navigation-auto2 {
         display: none;
-        width: 100%;
-        margin-top: 260px;
-
     }
+
+
 
     /* fim slide 2 */
 
