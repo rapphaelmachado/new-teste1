@@ -14,14 +14,14 @@
 	.cabecalhoPrincipal .container {
 		flex-direction: column;
 		text-align: center;
-        height: 7rem;
+        height: 11rem;
         width: auto;
         font-size: 1.1rem;
         padding: auto;
 	}
 
     .cabecalhoPrincipal-nav-link {
-        border-bottom: solid 1px black;
+        border-bottom: solid 1px white;
         margin: 1rem;
         
     }
