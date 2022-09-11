@@ -26,6 +26,8 @@
         
     }
 
+    /* inicio slider 1 */
+    
     .slider {
         width: 100%;
         margin-bottom: -190px;
@@ -45,6 +47,36 @@
         margin-top: 260px;
 
     }
+
+    /* fim slider 1 e inicio de slider 2 */
+
+    .slider2 {
+        width: auto;
+        margin-bottom: -190px;
+        display: inline-block;
+    }
+
+    .slide2 img {
+        width: 100%;
+        display: inline-block;
+
+    }
+
+    .manual-navigation2 {
+        display: none;
+        width: 100%;
+        margin-top: -140px;
+
+    }
+
+    .navigation-auto2 {
+        display: none;
+        width: 100%;
+        margin-top: 260px;
+
+    }
+
+    /* fim slide 2 */
 
 	.conteudoPropostas {
         flex-direction: column;
@@ -88,6 +120,7 @@
         width: auto;
         text-align: center;
     }
+    
 
 
 }
