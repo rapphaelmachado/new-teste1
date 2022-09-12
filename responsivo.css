@@ -51,12 +51,18 @@
 
     /* fim slider 1 e inicio de slider 2 */
 
-    .slider2 {
+    .slider2  {
         width: 100%;
-        height: auto;
         margin-bottom: 10px;
 
     }
+
+    .slide2 img {
+        width: 400px;
+
+
+    }
+
 
     .manual-navigation2 {
         display: none;
@@ -64,7 +70,9 @@
 
     .navigation-auto2 {
         display: none;
+        
     }
+
 
 
 
