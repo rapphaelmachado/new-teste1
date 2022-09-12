@@ -441,9 +441,6 @@ body {
     margin-left: -350%;
 }
 
-#radio26:checked ~ .first{
-    margin-left: -375%;
-}
 
 .navigation-auto2 div{
     border: 2px solid #55DB96;
@@ -527,9 +524,7 @@ body {
     background-color: black;
 }
 
-#radio26:checked ~ .navigation-auto2 .auto-btn26{
-    background-color: black;
-}
+
 
 /* inicio slide2 */
 /* 222222222222222222222222222
