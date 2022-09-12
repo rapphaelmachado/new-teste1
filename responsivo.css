@@ -53,16 +53,28 @@
 
     .slider2  {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: -190px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: auto;
+        
+    }
 
+    .slide2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .slides2 {
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .slide2 img {
-        width: 400px;
-
-
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-
 
     .manual-navigation2 {
         display: none;

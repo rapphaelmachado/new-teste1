@@ -351,7 +351,10 @@ body {
     width: 25%;
     position: relative;
     transition: 2s;
+    display: flex;
 }
+
+
 
 .slide2 img{
     width: 800px;
@@ -526,230 +529,6 @@ body {
 
 
 
-/* inicio slide2 */
-/* 222222222222222222222222222
-.slider2{
-    margin: 0 auto;
-    width: 780px;
-    height: 480px;
-    overflow: hidden;
-}
-
-.slides2{
-    width: 400%;
-    height: 400px;
-    display: flex;
-}
-
-.slides2 input {
-    display: none;
-
-}
-
-.slide2{
-    width: 25%;
-    position: relative;
-    transition: 2s;
-}
-
-.slide2 img{
-    width: 800px;
-
-}
-
-.manual-navigation2{
-    position: absolute;
-    width: 800px;
-    margin-top: 90px;
-    display: none;
-    justify-content: center;
-}
-
-.manual-btn2{
-    border: 2px solid #28CD5E;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn2:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn2:hover{
-    background-color: black;
-}
-
-#radio11:checked ~ .first{
-    margin-left: 0;
-}
-
-#radio12:checked ~ .first{
-    margin-left: -25%;
-}
-
-#radio13:checked ~ .first{
-    margin-left: -50%;
-}
-
-#radio14:checked ~ .first{
-    margin-left: -75%;
-}
-
-#radio15:checked ~ .first{
-    margin-left: -100%;
-}
-
-#radio16:checked ~ .first{
-    margin-left: -125%;
-}
-
-#radio17:checked ~ .first{
-    margin-left: -150%;
-}
-
-#radio18:checked ~ .first{
-    margin-left: -175%;
-}
-
-#radio19:checked ~ .first{
-    margin-left: -200%;
-}
-
-#radio20:checked ~ .first{
-    margin-left: -225%;
-}
-
-#radio21:checked ~ .first{
-    margin-left: -250%;
-}
-
-#radio22:checked ~ .first{
-    margin-left: -275%;
-}
-
-#radio23:checked ~ .first{
-    margin-left: -300%;
-}
-
-#radio24:checked ~ .first{
-    margin-left: -325%;
-}
-
-#radio25:checked ~ .first{
-    margin-left: -350%;
-}
-
-#radio26:checked ~ .first{
-    margin-left: -375%;
-}
-
-
-
-.navigation-auto2 div{
-    border: 2px solid #55DB96;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-
-.navigation-auto2{
-    position: absolute;
-    width: 800px;
-    margin-top: 490px;
-    display: none;
-    justify-content: center;
-}
-
-.navigation-auto2 div:not(:last-child){
-    margin-right: 40px;
-
-}
-
-#radio11:checked ~ .navigation-auto2 .auto-btn11{
-    background-color: black;
-}
-
-#radio12:checked ~ .navigation-auto2 .auto-btn12{
-    background-color: black;
-}
-
-#radio13:checked ~ .navigation-auto2 .auto-btn13{
-    background-color: black;
-}
-
-#radio14:checked ~ .navigation-auto2 .auto-btn14{
-    background-color: black;
-}
-
-#radio15:checked ~ .navigation-auto2 .auto-btn15{
-    background-color: black;
-}
-
-#radio16:checked ~ .navigation-auto2 .auto-btn16{
-    background-color: black;
-}
-
-#radio17:checked ~ .navigation-auto2 .auto-btn17{
-    background-color: black;
-}
-
-#radio18:checked ~ .navigation-auto2 .auto-btn18{
-    background-color: black;
-}
-
-#radio19:checked ~ .navigation-auto2 .auto-btn19{
-    background-color: black;
-}
-
-#radio20:checked ~ .navigation-auto2 .auto-btn20{
-    background-color: black;
-}
-
-#radio21:checked ~ .navigation-auto2 .auto-btn21{
-    background-color: black;
-}
-
-#radio22:checked ~ .navigation-auto2 .auto-btn22{
-    background-color: black;
-}
-
-#radio23:checked ~ .navigation-auto2 .auto-btn23{
-    background-color: black;
-}
-
-#radio24:checked ~ .navigation-auto2 .auto-btn24{
-    background-color: black;
-}
-
-#radio25:checked ~ .navigation-auto2 .auto-btn25{
-    background-color: black;
-}
-
-#radio26:checked ~ .navigation-auto2 .auto-btn26{
-    background-color: black;
-}
-
-#radio27:checked ~ .navigation-auto2 .auto-btn27{
-    background-color: black;
-}
-
-#radio28:checked ~ .navigation-auto2 .auto-btn28{
-    background-color: black;
-}
-
-#radio29:checked ~ .navigation-auto2 .auto-btn29{
-    background-color: black;
-}
-
-#radio30:checked ~ .navigation-auto2 .auto-btn30{
-    background-color: black;
-}
-
-
 /* fim slider 2 */ 
 
 .slider2 h1 {
@@ -758,6 +537,10 @@ body {
     font-weight: bold;
     text-align: center;
     margin: 40px 0px 40px;
+}
+
+.conteudo_aside {
+    display: flex;
 }
 
 
