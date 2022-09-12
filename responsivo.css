@@ -51,40 +51,26 @@
 
     /* fim slider 1 e inicio de slider 2 */
 
+    .conteudo_aside {
+        width: 100%;
+        display: block;
+
+    }
+    
     .slider2  {
         width: 100%;
         margin-bottom: -190px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        overflow: auto;
+
         
     }
 
-    .slide2 {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .slides2 {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 
     .slide2 img {
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+        width: auto;
 
-    .manual-navigation2 {
-        display: none;
-    }
 
-    .navigation-auto2 {
-        display: none;
-        
-    }
 
+    }
 
 
 

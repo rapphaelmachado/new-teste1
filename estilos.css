@@ -258,7 +258,7 @@ body {
 }
 
 .manual-btn{
-    border: 2px solid #28CD5E;
+    border: 2px solid #55DB96;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -312,19 +312,19 @@ body {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: black;
+    background-color: #55DB96;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: black;
+    background-color: #55DB96;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: black;
+    background-color: #55DB96;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: black;
+    background-color: #55DB96;
 }
 
 
@@ -363,17 +363,36 @@ body {
 .manual-navigation2{
     position: absolute;
     width: 800px;
-    margin-top: 90px;
+    margin-top: 20px;
     display: none;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .manual-btn2{
     border: 2px solid #28CD5E;
-    padding: 5px;
+    padding: 0;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+}
+
+.navigation-auto2 div{
+    border: 2px solid #55DB96;
+    padding: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.navigation-auto2{
+    position: absolute;
+    width: 800px;
+    margin-top: 420px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .manual-btn2:not(:last-child){
@@ -445,22 +464,6 @@ body {
 }
 
 
-.navigation-auto2 div{
-    border: 2px solid #55DB96;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-
-.navigation-auto2{
-    position: absolute;
-    width: 800px;
-    margin-top: 490px;
-    display: none;
-    justify-content: center;
-}
 
 .navigation-auto2 div:not(:last-child){
     margin-right: 40px;
