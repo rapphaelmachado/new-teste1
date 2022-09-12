@@ -1,4 +1,4 @@
-@media(max-width: 768px) {
+@media screen and (max-width: 768px) {
     
     body {
         display: flex;
@@ -44,6 +44,7 @@
     }
 
     .navigation-auto {
+        
         width: 100%;
         margin-top: 260px;
 
@@ -51,23 +52,17 @@
 
     /* fim slider 1 e inicio de slider 2 */
 
-    .conteudo_aside {
-        width: 100%;
-        display: block;
-
-    }
     
     .slider2  {
         width: 100%;
-        margin-bottom: -190px;
+        margin-bottom: -90px;
 
         
     }
 
 
     .slide2 img {
-        width: auto;
-
+        width: 480px;
 
 
     }
