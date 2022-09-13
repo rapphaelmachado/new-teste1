@@ -158,7 +158,7 @@ body {
 }
 
 .conteudoContato {
-    margin: 250px 100px 50px;
+    margin: 50px 100px 50px;
     padding: 10px;
     align-items: center;
 
@@ -539,11 +539,20 @@ body {
     color: black;
     font-weight: bold;
     text-align: center;
-    margin: 40px 0px 40px;
+    margin: 40px;
+
 }
 
 .conteudo_aside {
     display: flex;
+
+}
+
+.desenvolvido_por {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 12px;
+    
 }
 
 
