@@ -1,47 +1,48 @@
 let count = 1;
 document.getElementById("radio1").checked = true;
 
-setInterval( function(){
+setInterval(function () {
     nextImage();
 }, 3700)
 
-function nextImage(){
+function nextImage() {
     count++;
-    if(count>4){
-       count = 1;
+    if (count > 4) {
+        count = 1;
     }
 
-    document.getElementById("radio"+count).checked = true;
+    document.getElementById("radio" + count).checked = true;
 }
 
 let count1 = 11;
 document.getElementById("radio11").checked = true;
 
-setInterval( function(){
+setInterval(function () {
     nextImage2();
 }, 3000)
 
-function nextImage2(){
+function nextImage2() {
     count1++;
-    if(count1>25){
-       count1 = 11;
+    if (count1 > 25) {
+        count1 = 11;
     }
 
-    document.getElementById("radio"+count1).checked = true;
+    document.getElementById("radio" + count1).checked = true;
 }
 
 
 
 const btn = document.getElementById("btnTop")
 
-btn.addEventListener("click", function(){
-    window.scrollTo(0,0)
+btn.addEventListener("click", function () {
+
+    // window.scrollTo(0,0)
 })
 
-document.addEventListener('scroll',ocultar)
+document.addEventListener('scroll', ocultar)
 
-function ocultar(){
-    if(window.scrollY > 10){
+function ocultar() {
+    if (window.scrollY > 10) {
         btn.style.display = "flex"
     } else {
         btn.style.display = "none"
@@ -49,3 +50,20 @@ function ocultar(){
 }
 
 ocultar()
+
+
+let anchorSelector = 'a[href^="#"]';
+
+let anchorList =
+    document.querySelectorAll(anchorSelector);
+
+anchorList.forEach(link => {
+    link.onclick = function (e) {
+        e.preventDefault();
+        let destination =
+            document.querySelector(this.hash);
+        destination.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+});
