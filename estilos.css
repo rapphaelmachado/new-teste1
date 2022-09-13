@@ -24,6 +24,7 @@ body {
 
 .paragrafo {
     display: flex;
+    
 }
 
 .cabecalhoPrincipal .container {
@@ -73,6 +74,7 @@ body {
     background: white;
     padding: 10px;
     text-align: center;
+    
 }
 
 .div_conteudo_propostas h1 {
@@ -80,14 +82,14 @@ body {
     color: black;
     font-weight: bold;
     text-align: center;
-    margin: 40px 0px 10px;
+    margin: 40px auto 10px;
 
 }
 
 .div_conteudo_propostas p {
     font-size: 20px;
     color: black;
-    text-align: left;
+    text-align: justify;
     text-indent: 30px;
     margin: 25px 180px 25px;
     padding: 5px;
@@ -98,13 +100,14 @@ body {
     color: black;
     font-weight: bold;
     text-align: center;
-    margin: 40px 0px 10px;
+    margin: 40px auto 10px;
+    
 }
 
 .div_conteudo_sobre p {
     font-size: 20px;
     color: black;
-    text-align: left;
+    text-align: justify;
     text-indent: 30px;
     margin: 25px 180px 25px;
     padding: 5px;
@@ -264,7 +267,7 @@ body {
     position: absolute;
     width: 800px;
     margin-top: 90px;
-    display: none;
+    display: flex;
     justify-content: center;
 }
 
@@ -592,6 +595,14 @@ body {
 .up {
     transform: rotate(135deg);
     -webkit-transform: rotate(-135deg);
+}
+
+.h1personalizado {
+    background-color: #55DB96;
+    width: 400px;
+    border-radius: 50px;
+    padding: 5px;
+
 }
 
 

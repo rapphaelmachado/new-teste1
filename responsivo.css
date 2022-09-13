@@ -11,6 +11,10 @@
         
 	}
 
+    .h1personalizado {
+        width: auto;
+    }
+
 	.cabecalhoPrincipal .container {
 		flex-direction: column;
 		text-align: center;
@@ -80,17 +84,20 @@
         flex-direction: column;
 		width: auto;
         margin: auto;
+        
 	}
 
 	.div_conteudo_propostas .paragrafo {
 		margin: auto;
         width: auto;
+        
 
 	}
 
     .div_conteudo_sobre .paragrafo {
 		margin: auto;
         width: auto;
+        
 
 
 	}
