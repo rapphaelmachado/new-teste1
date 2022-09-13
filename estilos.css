@@ -264,7 +264,7 @@ body {
     position: absolute;
     width: 800px;
     margin-top: 90px;
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
