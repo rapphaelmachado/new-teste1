@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+
 body {
     background: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gilroy', Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 
@@ -555,5 +566,32 @@ body {
     
 }
 
+
+#btnTop {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #55db9670;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 130px;
+}
+
+.arrow {
+    border: solid #55DB96;
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(-135deg);
+}
 
 
