@@ -80,6 +80,9 @@
 
     /* fim slide 2 */
 
+
+
+
 	.conteudoPropostas {
         flex-direction: column;
 		width: auto;
@@ -90,16 +93,12 @@
 	.div_conteudo_propostas .paragrafo {
 		margin: auto;
         width: auto;
-        
-
 	}
 
     .div_conteudo_sobre .paragrafo {
 		margin: auto;
         width: auto;
         
-
-
 	}
 
     .div_conteudo_propostas .imagem_2 {

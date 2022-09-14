@@ -24,14 +24,13 @@ body {
 
 }
 
+#paragrafo_final {
+    text-align: center;
+}
+
 .paragrafo {
     display: flex;
     
-}
-
-.paragrafofinal {
-    display: flex;
-    justify-content: center;
 }
 
 .cabecalhoPrincipal .container {
