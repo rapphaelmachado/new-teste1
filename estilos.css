@@ -8,9 +8,11 @@
 }
 
 
+
 body {
-    background: white;
+    background: rgb(245, 242, 242);
     font-family: 'Gilroy', Georgia, 'Times New Roman', Times, serif;
+
     
 }
 
@@ -25,6 +27,11 @@ body {
 .paragrafo {
     display: flex;
     
+}
+
+.paragrafofinal {
+    display: flex;
+    justify-content: center;
 }
 
 .cabecalhoPrincipal .container {
@@ -71,7 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 50px 0;
-    background: white;
+    background: rgb(245, 242, 242);
     padding: 10px;
     text-align: center;
     
