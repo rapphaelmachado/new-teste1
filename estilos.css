@@ -24,14 +24,18 @@ body {
 
 }
 
+
+span {
+    font-weight: bold;
+    background-color: #55db967c;
+
+}
+
 #paragrafo_final {
     text-align: center;
 }
 
-.paragrafo {
-    display: flex;
-    
-}
+
 
 .cabecalhoPrincipal .container {
     display: flex;
